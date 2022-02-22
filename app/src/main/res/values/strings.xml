@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Rbot</string>
+    <string name="title_activity_auth">AuthActivity</string>
+</resources>

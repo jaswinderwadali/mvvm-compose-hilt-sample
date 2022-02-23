@@ -4,10 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.PaddingValues
-import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.*
@@ -47,6 +44,7 @@ class AuthActivity : ComponentActivity() {
 fun LoadingState(){
     Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center) {
         CircularProgressIndicator()
+        Text(text = "Loading...", modifier = Modifier.padding(8.dp))
     }
 }
 
@@ -55,7 +53,7 @@ fun MainContent(photoList: SnapshotStateList<PhotosModel>) {
     Column {
         LazyColumn(
             Modifier.weight(1f),
-            contentPadding = PaddingValues(horizontal = 16.dp, vertical = 8.dp)
+            contentPadding = PaddingValues(horizontal = 8.dp, vertical = 8.dp),
         ) {
             items(
                 items = photoList,

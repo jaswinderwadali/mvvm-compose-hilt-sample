@@ -13,19 +13,21 @@ import r.bot.data.model.PhotosModel
 
 @Composable
 fun BasicCard(photosModel: PhotosModel) {
-    Card(modifier =  Modifier
-        .padding(8.dp).width(IntrinsicSize.Max)) {
-        Column {
-            Text(modifier = Modifier.padding(8.dp), text = photosModel.id)
+    Card(modifier = Modifier
+        .padding(8.dp)
+        .width(IntrinsicSize.Max)) {
+        Row {
             Image(
                 painter = rememberImagePainter(photosModel.url, builder = {
                     transformations(CircleCropTransformation())
                 }),
                 contentDescription = photosModel.title,
-                modifier = Modifier.size(56.dp)
-
+                modifier = Modifier
+                    .size(70.dp)
+                    .padding(8.dp)
             )
-            Text(modifier = Modifier.width(IntrinsicSize.Max).padding(8.dp), text = photosModel.title)
+            Text(modifier = Modifier
+                .padding(8.dp).weight(1f), text = photosModel.title)
         }
 
     }

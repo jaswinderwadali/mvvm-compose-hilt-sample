@@ -1,4 +1,4 @@
-package r.bot.theme
+package r.bot.app.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

@@ -1,4 +1,4 @@
-package r.bot.ui.theme
+package r.bot.app.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

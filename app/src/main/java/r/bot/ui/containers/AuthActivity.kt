@@ -16,7 +16,7 @@ import androidx.compose.ui.unit.dp
 import dagger.hilt.android.AndroidEntryPoint
 import r.bot.data.model.PhotosModel
 import r.bot.ui.component.BasicCard
-import r.bot.theme.RbotTheme
+import r.bot.app.theme.RbotTheme
 import r.bot.viewmodel.PhotosViewModel
 
 @AndroidEntryPoint

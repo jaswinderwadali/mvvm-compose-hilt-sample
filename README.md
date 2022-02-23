@@ -1,8 +1,1 @@
-# MVVM JetPack Compose Hilt 
-
-Sample Code 
-Android-JetPack
-Compose 
-MVVM 
-Dagger-Hilt
-Retrofit
+# Jetpack Compose Samples with MVVM, Hilt, Retrofit, coroutines

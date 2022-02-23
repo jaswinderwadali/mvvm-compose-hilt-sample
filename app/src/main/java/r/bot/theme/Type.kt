@@ -1,4 +1,4 @@
-package r.bot.ui.containers.ui.theme
+package r.bot.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

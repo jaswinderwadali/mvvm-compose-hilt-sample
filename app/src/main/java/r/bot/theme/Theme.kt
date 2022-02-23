@@ -1,4 +1,4 @@
-package r.bot.ui.containers.ui.theme
+package r.bot.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

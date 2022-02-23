@@ -7,15 +7,15 @@ import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
 
 private val DarkColorPalette = darkColors(
-    primary = Purple200,
-    primaryVariant = Purple700,
-    secondary = Teal200
+    primary = r.bot.theme.Purple200,
+    primaryVariant = r.bot.theme.Purple700,
+    secondary = r.bot.theme.Teal200
 )
 
 private val LightColorPalette = lightColors(
-    primary = Teal200,
-    primaryVariant = Purple700,
-    secondary = Purple500
+    primary = r.bot.theme.Teal200,
+    primaryVariant = r.bot.theme.Purple700,
+    secondary = r.bot.theme.Purple500
 
     /* Other default colors to override
     background = Color.White,
@@ -37,8 +37,8 @@ fun RbotTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable()
 
     MaterialTheme(
         colors = colors,
-        typography = Typography,
-        shapes = Shapes,
+        typography = r.bot.theme.Typography,
+        shapes = r.bot.theme.Shapes,
         content = content
     )
 }

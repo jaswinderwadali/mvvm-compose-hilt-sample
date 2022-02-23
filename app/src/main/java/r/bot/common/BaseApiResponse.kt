@@ -1,4 +1,4 @@
-package r.bot
+package r.bot.common
 
 import retrofit2.Response
 

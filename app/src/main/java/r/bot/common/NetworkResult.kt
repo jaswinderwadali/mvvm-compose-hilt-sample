@@ -1,4 +1,4 @@
-package r.bot
+package r.bot.common
 
 sealed class NetworkResult<T>(
     val data: T? = null,

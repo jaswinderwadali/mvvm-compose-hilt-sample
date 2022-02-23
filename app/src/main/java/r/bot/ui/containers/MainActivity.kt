@@ -28,7 +28,7 @@ import r.bot.app.USER
 import r.bot.data.model.ChatModel
 import r.bot.data.model.chat_list
 import r.bot.ui.component.ToolbarWidget
-import r.bot.ui.theme.RbotTheme
+import r.bot.theme.RbotTheme
 
 
 class MainActivity : ComponentActivity() {

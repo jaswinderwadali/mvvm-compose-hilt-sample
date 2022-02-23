@@ -12,7 +12,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import r.bot.app.USER
-import r.bot.data.ChatModel
+import r.bot.data.model.ChatModel
 
 
 object Ui {

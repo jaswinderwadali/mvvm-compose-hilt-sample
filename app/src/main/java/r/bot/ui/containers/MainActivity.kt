@@ -25,8 +25,8 @@ import kotlinx.coroutines.launch
 import r.bot.R
 import r.bot.app.TEXT
 import r.bot.app.USER
-import r.bot.data.ChatModel
-import r.bot.data.chat_list
+import r.bot.data.model.ChatModel
+import r.bot.data.model.chat_list
 import r.bot.ui.component.ToolbarWidget
 import r.bot.ui.theme.RbotTheme
 

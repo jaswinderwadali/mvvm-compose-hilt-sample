@@ -2,28 +2,33 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="r.bot">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:name=".app.RBotApplication"
         android:theme="@style/Theme.Rbot">
         <activity
             android:name=".ui.containers.AuthActivity"
-            android:exported="false"
-            android:label="@string/title_activity_auth"
-            android:theme="@style/Theme.Rbot" />
-        <activity
-            android:name=".ui.containers.MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.Rbot.NoActionBar">
+            android:label="@string/title_activity_auth"
+            android:theme="@style/Theme.Rbot" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.containers.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Rbot.NoActionBar">
+
         </activity>
     </application>
 

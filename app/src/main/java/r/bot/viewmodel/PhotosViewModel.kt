@@ -1,10 +1,11 @@
 package r.bot.viewmodel
 
-import androidx.compose.runtime.snapshots.SnapshotMutableState
 import androidx.compose.runtime.snapshots.SnapshotStateList
-import androidx.lifecycle.*
+import androidx.lifecycle.LifecycleObserver
+import androidx.lifecycle.SavedStateHandle
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import r.bot.common.NetworkResult
 import r.bot.data.model.PhotosModel
@@ -24,16 +25,16 @@ class PhotosViewModel @Inject constructor(
     val snapshotStateList = SnapshotStateList<PhotosModel>()
 
     private fun getPhotos() = viewModelScope.launch {
-        mainRepository.getPhotos().collect { values ->
-            when (values) {
-                is NetworkResult.Success -> {
-                    values.data?.let { snapshotStateList.addAll(it) }
-                }
-                else -> {
-
-                }
+        when (val result = mainRepository.getPhotos()) {
+            is NetworkResult.Success -> {
+                result.data?.let { snapshotStateList.addAll(it) }
             }
-        }
+            else -> {
+
+            }
+            }
+
+
     }
 
 

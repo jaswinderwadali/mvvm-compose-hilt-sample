@@ -32,7 +32,7 @@ class PhotosViewModel @Inject constructor(
             else -> {
 
             }
-            }
+        }
 
 
     }

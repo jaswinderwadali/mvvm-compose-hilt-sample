@@ -13,9 +13,11 @@ This is a demo application built using modern Jetpack Tools.
 - [Retrofit](https://square.github.io/retrofit/) - A type-safe HTTP client for Android,Annotations on the interface methods and its parameters indicate how a request will be handled.
 
 
-## still in progress will refactor soon 
+<br/>
 
-<div align="center">
-	<img width="300" height="500" src="media/list.png" alt="screenshot">
-	<img width="300" height="500" src="media/chatscreen.png" alt="screenshot">
+## Screenshots
+
+<div align="left">
+	   <img width="300" height="500" src="media/list.png" alt="screenshot">
+	   <img width="300" height="500" src="media/chatscreen.png" alt="screenshot">
 </div>

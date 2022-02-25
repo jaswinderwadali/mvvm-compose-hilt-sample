@@ -1,8 +1,4 @@
-# Jetpack Compose Samples with MVVM, Hilt, Retrofit, coroutines
-
-<div align="center">
-	<img width="300" height="500" src="list.png" alt="Awesome">
-</div>
+# Jetpack Samples with Compose, Hilt, Retrofit, coroutines using MVVM Architecture
 
 ## About
 This is a demo application built using modern Jetpack Tools. 
@@ -15,3 +11,9 @@ This is a demo application built using modern Jetpack Tools.
 - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - Stores UI-related data that isn't destroyed on UI changes. 
 - [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - Asynchronous or non-blocking programming is an important part of the development landscape.
 - [Retrofit](https://square.github.io/retrofit/) - A type-safe HTTP client for Android,Annotations on the interface methods and its parameters indicate how a request will be handled.
+
+
+<div align="center">
+	<img width="300" height="500" src="list.png" alt="screenshot">
+	<img width="500" height="700" src="media_format.png" alt="code">
+</div>

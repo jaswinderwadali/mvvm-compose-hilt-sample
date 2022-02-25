@@ -15,5 +15,4 @@ This is a demo application built using modern Jetpack Tools.
 
 <div align="center">
 	<img width="300" height="500" src="list.png" alt="screenshot">
-	<img width="500" height="700" src="media_format.png" alt="code">
 </div>

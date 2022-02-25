@@ -13,7 +13,7 @@
         android:name=".app.RBotApplication"
         android:theme="@style/Theme.Rbot">
         <activity
-            android:name=".ui.containers.AuthActivity"
+            android:name=".ui.containers.EntryPointActivity"
             android:exported="true"
             android:label="@string/title_activity_auth"
             android:theme="@style/Theme.Rbot" >
@@ -24,7 +24,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.containers.MainActivity"
+            android:name=".ui.containers.ChatActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Rbot.NoActionBar">

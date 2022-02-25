@@ -31,7 +31,7 @@ import r.bot.ui.component.ToolbarWidget
 import r.bot.app.theme.RbotTheme
 
 
-class MainActivity : ComponentActivity() {
+class ChatActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {

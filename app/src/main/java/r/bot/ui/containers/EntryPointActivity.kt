@@ -20,7 +20,7 @@ import r.bot.app.theme.RbotTheme
 import r.bot.viewmodel.PhotosViewModel
 
 @AndroidEntryPoint
-class AuthActivity : ComponentActivity() {
+class EntryPointActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val photosVM: PhotosViewModel by viewModels()

@@ -13,7 +13,7 @@ import androidx.compose.ui.unit.dp
 import coil.compose.rememberImagePainter
 import coil.transform.CircleCropTransformation
 import r.bot.data.model.PhotosModel
-import r.bot.ui.containers.MainActivity
+import r.bot.ui.containers.ChatActivity
 
 @OptIn(ExperimentalMaterialApi::class)
 @Composable
@@ -22,7 +22,7 @@ fun BasicCard(photosModel: PhotosModel) {
     Card(modifier = Modifier
         .padding(8.dp)
         .width(IntrinsicSize.Max), onClick = {
-        context.startActivity(Intent(context, MainActivity::class.java))
+        context.startActivity(Intent(context, ChatActivity::class.java))
     }) {
         Row {
             Image(

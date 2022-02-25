@@ -2,7 +2,6 @@ package r.bot.viewmodel
 
 import androidx.compose.runtime.snapshots.SnapshotStateList
 import androidx.lifecycle.LifecycleObserver
-import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -14,9 +13,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 class PhotosViewModel @Inject constructor(
-    private val mainRepository: MainRepository,
-    private val savedStateHandle: SavedStateHandle
-) : ViewModel(), LifecycleObserver {
+    private val mainRepository: MainRepository) : ViewModel(), LifecycleObserver {
 
     init {
         getPhotos()

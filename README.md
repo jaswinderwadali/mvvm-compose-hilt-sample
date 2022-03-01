@@ -1,7 +1,7 @@
 # Jetpack Samples with Compose, Hilt, Retrofit, coroutines using MVVM Architecture
 
 ## About
-This is a demo application built using modern Jetpack Tools. 
+This is a demo application built using modern Jetpack Tools.
 
 ## Using
 - [Kotlin](https://kotlinlang.org/) - Official programming language for Android development.
@@ -13,7 +13,11 @@ This is a demo application built using modern Jetpack Tools.
 - [Retrofit](https://square.github.io/retrofit/) - A type-safe HTTP client for Android,Annotations on the interface methods and its parameters indicate how a request will be handled.
 
 
-<div align="center">
-	<img width="300" height="500" src="media/list.png" alt="screenshot">
-	<img width="300" height="500" src="media/chatscreen.png" alt="screenshot">
+<br/>
+
+## Screenshots
+
+<div align="left">
+	   <img width="300" height="500" src="media/list.png" alt="screenshot">
+	   <img width="300" height="500" src="media/chatscreen.png" alt="screenshot">
 </div>

@@ -1,7 +1,10 @@
 # Jetpack Samples with Compose, Hilt, Retrofit, coroutines using MVVM Architecture
 
+![Build & Test](https://github.com/jaswinderwadali/mvvm-compose-hilt-sample/actions/workflows/gradle.yml/badge.svg) ![Build & Test](https://github.com/jaswinderwadali/mvvm-compose-hilt-sample/actions/workflows/android.yml/badge.svg)
+
+
 ## About
-This is a demo application built using modern Jetpack Tools.
+This is a demo application built using modern Jetpack Tools. 
 
 ## Using
 - [Kotlin](https://kotlinlang.org/) - Official programming language for Android development.
